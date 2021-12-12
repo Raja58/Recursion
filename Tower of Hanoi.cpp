@@ -24,6 +24,6 @@ void ToH(int n, char A, char B, char C)
 
 int main() {
 	int n = 2;
-  ToH(n, 'A', 'B', 'C');
+  	ToH(n, 'A', 'B', 'C');
 	return 0;
 }
