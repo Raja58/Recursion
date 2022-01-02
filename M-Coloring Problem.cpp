@@ -26,7 +26,7 @@ bool mColor(int node, int &n, int &m, vector<int> color, bool graph[101][101])
                 break;
             }
         }
-        if(sameCol)
+        if(sameCol == true)
             continue;
         color[node] = col;
         if(mColor(node + 1, n, m, color, graph))
